@@ -80,14 +80,27 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vcB-qy-1vS">
+                                <rect key="frame" x="16" y="617" width="70" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="JrS-cH-8AU"/>
+                                    <constraint firstAttribute="height" constant="30" id="PN9-aA-3xY"/>
+                                </constraints>
+                                <state key="normal" title="Directions"/>
+                                <connections>
+                                    <action selector="directionButtonPressed:" destination="hWU-by-u8b" eventType="touchUpInside" id="QR3-KW-flV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="zW4-Rd-xLK" firstAttribute="top" secondItem="Mq2-05-j0x" secondAttribute="bottom" constant="102" id="LIe-Wr-fbr"/>
                             <constraint firstItem="1ip-Bk-MIa" firstAttribute="centerX" secondItem="NXk-Yd-yV7" secondAttribute="centerX" id="OhR-1h-Irg"/>
+                            <constraint firstItem="2lp-wU-CIR" firstAttribute="bottom" secondItem="vcB-qy-1vS" secondAttribute="bottom" constant="20" id="S8v-B2-L3n"/>
                             <constraint firstItem="1ip-Bk-MIa" firstAttribute="top" secondItem="2lp-wU-CIR" secondAttribute="top" constant="35" id="Wid-ic-NWd"/>
                             <constraint firstItem="zW4-Rd-xLK" firstAttribute="centerX" secondItem="NXk-Yd-yV7" secondAttribute="centerX" id="d5m-DR-cNV"/>
                             <constraint firstItem="Mq2-05-j0x" firstAttribute="centerX" secondItem="NXk-Yd-yV7" secondAttribute="centerX" id="dTe-5s-x5m"/>
+                            <constraint firstItem="vcB-qy-1vS" firstAttribute="leading" secondItem="2lp-wU-CIR" secondAttribute="leading" constant="16" id="wBN-ka-OA1"/>
                             <constraint firstItem="Mq2-05-j0x" firstAttribute="top" secondItem="1ip-Bk-MIa" secondAttribute="bottom" constant="73" id="x7m-Wf-Zli"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="2lp-wU-CIR"/>
