@@ -14,6 +14,7 @@
 		5B4A09AE20F661F4008B8B6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4A09AC20F661F4008B8B6F /* LaunchScreen.storyboard */; };
 		5B4A09B920F661F4008B8B6F /* Pizza_FinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A09B820F661F4008B8B6F /* Pizza_FinderTests.swift */; };
 		5B4A09C420F661F4008B8B6F /* Pizza_FinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A09C320F661F4008B8B6F /* Pizza_FinderUITests.swift */; };
+		5B4A09D220F6880A008B8B6F /* LocationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A09D120F6880A008B8B6F /* LocationDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5B4A09BF20F661F4008B8B6F /* Pizza FinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pizza FinderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B4A09C320F661F4008B8B6F /* Pizza_FinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza_FinderUITests.swift; sourceTree = "<group>"; };
 		5B4A09C520F661F4008B8B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B4A09D120F6880A008B8B6F /* LocationDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		5B4A09A220F661F3008B8B6F /* Pizza Finder */ = {
 			isa = PBXGroup;
 			children = (
+				5B4A09D120F6880A008B8B6F /* LocationDetailsViewController.swift */,
 				5B4A09A320F661F3008B8B6F /* AppDelegate.swift */,
 				5B4A09A520F661F3008B8B6F /* ViewController.swift */,
 				5B4A09A720F661F3008B8B6F /* Main.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B4A09D220F6880A008B8B6F /* LocationDetailsViewController.swift in Sources */,
 				5B4A09A620F661F3008B8B6F /* ViewController.swift in Sources */,
 				5B4A09A420F661F3008B8B6F /* AppDelegate.swift in Sources */,
 			);
