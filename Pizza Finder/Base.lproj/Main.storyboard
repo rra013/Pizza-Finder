@@ -91,6 +91,17 @@
                                     <action selector="directionButtonPressed:" destination="hWU-by-u8b" eventType="touchUpInside" id="QR3-KW-flV"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P6b-K0-hvG">
+                                <rect key="frame" x="303" y="617" width="56" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="56" id="Rs7-wq-VzK"/>
+                                    <constraint firstAttribute="height" constant="30" id="lio-3l-oCL"/>
+                                </constraints>
+                                <state key="normal" title="Website"/>
+                                <connections>
+                                    <action selector="websiteButtonPressed:" destination="hWU-by-u8b" eventType="touchUpInside" id="kUm-jf-LLc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -100,6 +111,8 @@
                             <constraint firstItem="1ip-Bk-MIa" firstAttribute="top" secondItem="2lp-wU-CIR" secondAttribute="top" constant="35" id="Wid-ic-NWd"/>
                             <constraint firstItem="zW4-Rd-xLK" firstAttribute="centerX" secondItem="NXk-Yd-yV7" secondAttribute="centerX" id="d5m-DR-cNV"/>
                             <constraint firstItem="Mq2-05-j0x" firstAttribute="centerX" secondItem="NXk-Yd-yV7" secondAttribute="centerX" id="dTe-5s-x5m"/>
+                            <constraint firstItem="2lp-wU-CIR" firstAttribute="bottom" secondItem="P6b-K0-hvG" secondAttribute="bottom" constant="20" id="j3Y-wj-qio"/>
+                            <constraint firstItem="2lp-wU-CIR" firstAttribute="trailing" secondItem="P6b-K0-hvG" secondAttribute="trailing" constant="16" id="kxy-uc-eMv"/>
                             <constraint firstItem="vcB-qy-1vS" firstAttribute="leading" secondItem="2lp-wU-CIR" secondAttribute="leading" constant="16" id="wBN-ka-OA1"/>
                             <constraint firstItem="Mq2-05-j0x" firstAttribute="top" secondItem="1ip-Bk-MIa" secondAttribute="bottom" constant="73" id="x7m-Wf-Zli"/>
                         </constraints>
